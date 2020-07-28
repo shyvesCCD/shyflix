@@ -1,17 +1,17 @@
 {
     "categorias": [
       {
-        "titulo": "Front End",
-        "link": "https://www.alura.com.br/formacao-front-end",
+        "titulo": "Pedro",
+        "link": "https://twitter.com/myouihani",
         "cor": "#36406E",
         "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
+          "text": "Minha rede social",
+          "url": "https://github.com/shyvesCCD"
         },
         "videos": [
           {
-            "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-            "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+            "titulo": "Clean Code Uncle Bob",
+            "url": "https://www.youtube.com/watch?v=7EmboKQH8lM&t=3s"
           },
           {
             "titulo": "SEO com React",
