@@ -29,7 +29,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL_DB = 'http://localhost:8080/categorias';
+    const URL_DB = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://shyflix.herokuapp.com/categorias';
     fetch(URL_DB)
       .then(async (Response) => {
         const resposta = await Response.json();
